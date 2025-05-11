@@ -1,3 +1,6 @@
+<ADD badge here>
+[![Node.js CI](https://github.com/PXL-2TIN-Devops-2425/calculator-app-finished-Maarten/actions/workflows/node.js.yml/badge.svg)](https://github.com/PXL-2TIN-Devops-2425/calculator-app-finished-Maarten/actions/workflows/node.js.yml)
+
 # Assignment 4: Pipelines in Jenkins
 
 
