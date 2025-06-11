@@ -8,4 +8,5 @@ jobs:
   steps:
   - run: mkdir testmachine
   - run: uname -a > ./testmachine/output.txt
-  - run: ls -alhr
+  - run: ls -alhR
+  - run: cat ./testmachine/output.txt
