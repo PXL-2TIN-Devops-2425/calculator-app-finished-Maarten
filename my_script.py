@@ -28,7 +28,7 @@ def system():
     print("System       :",platform.system(),platform.machine())
     print("Kernel       :",platform.release())
     print('Compiler     :', platform.python_compiler())
-    print('CPU          :',info, core,"(Core)")
+    print('CPU          :', core,"(Core)")
 
 def cpu():
     print()
