@@ -2,10 +2,8 @@ name: Steps
 on:
  workflow_dispatch:
 
-
-
 jobs:
-  workflow:
+  hello-world:
    runs-on: ubuntu-latest
    steps:
     - name: make directory
