@@ -30,11 +30,6 @@ def system():
     print('Compiler     :', platform.python_compiler())
     print('CPU          :', core,"(Core)")
 
-def cpu():
-    print()
-    print('---------- CPU ----------')
-    print()
-    print("CPU Usage    : ",cpuUsage,"GiB")
 
 
 def main():
