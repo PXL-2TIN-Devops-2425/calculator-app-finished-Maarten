@@ -7,7 +7,7 @@ on:
 jobs:
 workflow:
 runs-on: ubuntu-latest
- steps:
+steps:
   - name: make directory
   - run: mkdir testmachine
   - name: execute uname command
