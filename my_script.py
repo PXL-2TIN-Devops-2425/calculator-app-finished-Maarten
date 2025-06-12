@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import os, platform, subprocess, socket, cpuinfo
+import os, platform, subprocess, socket
 
 #command = "cat /proc/cpuinfo"
 #print(subprocess.check_output(command, shell=True).strip())
@@ -8,8 +8,6 @@ import os, platform, subprocess, socket, cpuinfo
 kb = float(1024)
 mb = float(kb ** 2)
 gb = float(kb ** 3)
-
-info = cpuinfo.get_cpu_info()['brand']
 
 
 def load_avg():
