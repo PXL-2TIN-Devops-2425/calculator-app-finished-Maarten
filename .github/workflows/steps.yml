@@ -5,14 +5,14 @@ on:
 
 
 jobs:
-workflow:
-runs-on: ubuntu-latest
-steps:
-  - name: make directory
-  - run: mkdir testmachine
-  - name: execute uname command
-  - run: uname -a > ./testmachine/output.txt
-  - name: check directory output 
-  - run: ls -alhr
-  - name: check contents of txt file
-  - run: cat ./testmachine/output.txt
+  workflow:
+   runs-on: ubuntu-latest
+   steps:
+    - name: make directory
+    - run: mkdir testmachine
+    - name: execute uname command
+    - run: uname -a > ./testmachine/output.txt
+    - name: check directory output 
+    - run: ls -alhr
+    - name: check contents of txt file
+    - run: cat ./testmachine/output.txt
