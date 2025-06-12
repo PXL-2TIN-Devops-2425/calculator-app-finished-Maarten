@@ -3,7 +3,7 @@ on:
  workflow_dispatch:
 
 jobs:
-  hello-world:
+  steps-example:
    runs-on: ubuntu-latest
    steps:
     - name: make directory
@@ -11,6 +11,6 @@ jobs:
     - name: execute uname command
       run: uname -a > ./testmachine/output.txt
     - name: check directory output 
-      run: ls -alhr
+      run: ls -alhR
     - name: check contents of txt file
       run: cat ./testmachine/output.txt
