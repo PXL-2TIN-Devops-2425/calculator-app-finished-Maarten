@@ -4,7 +4,7 @@ on:
 
 runs-on: ubuntu-latest
 
-
+jobs:
 steps:
   - name: make directory
   - run: mkdir testmachine
