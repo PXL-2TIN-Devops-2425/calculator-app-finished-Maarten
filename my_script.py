@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import os, platform, subprocess, socket, netifaces, cpuinfo
+import os, platform, subprocess, socket, cpuinfo
 
 #command = "cat /proc/cpuinfo"
 #print(subprocess.check_output(command, shell=True).strip())
@@ -37,11 +37,6 @@ def cpu():
     print('---------- CPU ----------')
     print()
     print("CPU Usage    : ",cpuUsage,"GiB")
-
-
-
-def network():
-    active = netifaces.gateways()['default'][netifaces.AF_INET][1]
 
 
 def main():
