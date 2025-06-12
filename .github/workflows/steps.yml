@@ -2,12 +2,15 @@ name: Steps
 on:
  workflow_dispatch:
 
-jobs:
- steps:
-  runs-on: ubuntu-latest
-  steps:
+runs-on: ubuntu-latest
+
+
+steps:
+  - name: make directory
   - run: mkdir testmachine
+  - name: execute uname command
   - run: uname -a > ./testmachine/output.txt
-  - run: ls -alhR
+  - name: check directory output 
+  - run: ls -alhr
+  - name: check contents of txt file
   - run: cat ./testmachine/output.txt
-  - run: python -v
