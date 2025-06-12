@@ -40,7 +40,6 @@ def cpu():
 def main():
     system()
     load_avg()
-    memory()
-    network()
+
 
 main()
