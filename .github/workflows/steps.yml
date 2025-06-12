@@ -2,10 +2,12 @@ name: Steps
 on:
  workflow_dispatch:
 
-runs-on: ubuntu-latest
+
 
 jobs:
-steps:
+workflow:
+runs-on: ubuntu-latest
+ steps:
   - name: make directory
   - run: mkdir testmachine
   - name: execute uname command
