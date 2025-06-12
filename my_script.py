@@ -38,7 +38,6 @@ def cpu():
 
 
 def main():
-    service()
     system()
     load_avg()
     memory()
